@@ -136,6 +136,18 @@ font-weight: 700;
   filter: grayscale(100%);
 }
 
+/* Footer */
+footer{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #FFF4E7;
+  text-align: center;
+  padding: 25px 15px 25px 15px;
+  border-radius: 8px;
+}
+footer p{
+  color: #424242;
+}
 /* Media Query */
 @media screen and (max-width:576px){
 
@@ -161,16 +173,16 @@ font-weight: 700;
   text-align: center;
  }
  .facts-container{
-  flex-direction: column;
+ flex-wrap: wrap;
 }
 .icon{
   margin: 10px;
 }
 .sponsor-logos{
-  flex-direction: column;
+  flex-wrap: wrap;
 }
 .sponsor-logos img{
- margin-bottom: 10px;
+ margin:10px;
 }
 
  
@@ -188,5 +200,16 @@ font-weight: 700;
  .our-features{
   text-align: center;
  }
- 
+ .facts-container{
+  flex-wrap: wrap;
+}
+.icon{
+  margin-bottom:27px;
+}
+.sponsor-logos{
+  flex-wrap: wrap;
+}
+.sponsor-logos img{
+  margin: 20px;
+}
 }
